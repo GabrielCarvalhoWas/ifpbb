@@ -162,17 +162,17 @@ section span {
 }
 
 .carro-item:hover img {
-    transform: scale(1.05); 
+    transform: scale(1.05);
 }
 
 
 .butao{
     display: flex;
-    flex-direction: column; /* Alinha os botões verticalmente */
-    align-items: center; /* Centraliza os botões horizontalmente */
-    gap: 10px; /* Espaço entre os botões */
-    position: absolute; /* Garante que o contêiner se posicione dentro do carro-item */
-    bottom: 5%; /* Ajuste a posição do contêiner conforme necessário */
+    flex-direction: column; 
+    align-items: center; 
+    gap: 10px;
+    position: absolute; 
+    bottom: 5%; 
     left: 50%;
     transform: translateX(-50%);;
     width: 31vw;
@@ -180,10 +180,10 @@ section span {
 
 .botao-01{
     background-color: #f80808;
-    padding: 10px 20px; /* Ajuste o padding conforme necessário */
-    width: 100%; /* Ajuste a largura conforme necessário */
+    padding: 10px 20px; 
+    width: 100%; 
     border-radius: 5px;
-    border: 1px solid #000000; /* Cor da borda */
+    border: 1px solid #000000; 
     font-family: "Noto Sans", sans-serif;
     text-align: center;
     cursor: pointer;
@@ -195,10 +195,10 @@ section span {
 .botao-02{
     background-color: #000000;
     color: rgb(255, 255, 255);
-    padding: 10px 20px; /* Ajuste o padding conforme necessário */
-    width: 100%; /* Ajuste a largura conforme necessário */
+    padding: 10px 20px; 
+    width: 100%; 
     border-radius: 5px;
-    border: 1px solid #ddd; /* Cor da borda */
+    border: 1px solid #ddd; 
     font-family: "Noto Sans", sans-serif;
     text-align: center;
     cursor: pointer;
@@ -218,7 +218,7 @@ section span {
 
 
 
-/* Seção de Pesquisa */
+
 .section-cep {
     background-color: #fff;
     text-align: center;
@@ -248,7 +248,7 @@ section span {
 .pesquisa input {
     width: 100%;
     max-width: 500px;
-    padding: 10px 10px 10px 40px; /* Espaço à esquerda para a lupa */
+    padding: 10px 10px 10px 40px; 
     border: 1px solid #ddd;
     border-radius: 15px;
     font-size: 16px;
