@@ -5,13 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles/index.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
 </head>
 <body>
     <header>
         <img src="img/background.jpg" alt="Carro" class="background-image">
 
         <div class="container">
-            <h2>Logo</h2>
+            <h2>IFCARS</h2>
             <nav>
                 <a href="#">Home</a>
                 <a href="#produtos">Produtos</a>
@@ -42,81 +45,84 @@
         </div>
     </header>
     
+
+    <div class="yt-video">
+
+        <h1>Veja mais sobre nossos modelos</h1>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/vEvBbNe3rqU?si=Ls0SFVaRRDVUlNf-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    </div>
+
     <main id="produtos">
         <section class="cars-description">
             <h1>NOSSOS CARROS</h1>
             <span>Veja abaixo o catálogo com os nossos carros disponíveis</span>
+        </section>
 
-            <div class="carro-grid">
-                <div class="carro-item">
-                    <img src="img/vermelho.avif" alt="Modelo 1">
-                    <div class="carro-descricao">
-                        <p>Descrição do Modelo 1</p>
-                    </div>
-                    <div class="butao">
-                        <button class="botao-01">Configurar Modelo</button>
-                        <button class="botao-02">Todas as configurações</button>
-                    </div>
-                </div>
+        <section class="cars">
+
+            <!--Modelo de Produto-->
+            <div class="produto">
                 
-                <div class="carro-item">
-                    <img src="img/vermelho.avif" alt="Modelo 2">
-                    <div class="carro-descricao">
-                        <p>Descrição do Modelo 2</p>
-                    </div>
-                    <div class="butao">
-                        <button class="botao-01">Configurar Modelo</button>
-                        <button class="botao-02">Todas as configurações</button>
-                    </div>
+                <h2>Porsche 718</h2>
+
+                <img src="./img/carro.png" alt="">
+
+                <div class="desc">
+                    <span>Um esportivo de tirar o folego</span>
+                    <span>Dois lugares com dinamica de condução graças a seu motor central.</span>
                 </div>
 
-                <div class="carro-item">
-                    <img src="img/vermelho.avif" alt="Modelo 3">
-                    <div class="carro-descricao">
-                        <p>Descrição do Modelo 3</p>
-                    </div>
-                    <div class="butao">
-                        <button class="botao-01">Configurar Modelo</button>
-                        <button class="botao-02">Todas as configurações</button>
-                    </div>
-                </div>
-
-                <div class="carro-item">
-                    <img src="img/vermelho.avif" alt="Modelo 4">
-                    <div class="carro-descricao">
-                        <p>Descrição do Modelo 4</p>
-                    </div>
-                    <div class="butao">
-                        <button class="botao-01">Configurar Modelo</button>
-                        <button class="botao-02">Todas as configurações</button>
-                    </div>
-                </div>
-
-                <div class="carro-item">
-                    <img src="img/vermelho.avif" alt="Modelo 5">
-                    <div class="carro-descricao">
-                        <p>Descrição do Modelo 5</p>
-                    </div>
-                    <div class="butao">
-                        <button class="botao-01">Configurar Modelo</button>
-                        <button class="botao-02">Todas as configurações</button>
-                    </div>
-                </div>
-
-                <div class="carro-item">
-                    <img src="img/vermelho.avif" alt="Modelo 6">
-                    <div class="lorem">
-                        <h3>Dois lugares com alta performance </h3>
-                    </div>
-                    <div class="carro-descricao">
-                        <p>Descrição do Modelo 6</p>
-                    </div>
-                    <div class="butao">
-                        <button class="botao-01">Configurar Modelo</button>
-                        <button class="botao-02">Todas as configurações</button>
-                    </div>
-                </div>
+                <button class="botao information">Saiba Mais</button>
+                <button class="botao models">Todos Modelos 718</button>
             </div>
+
+            <div class="produto">
+                
+                <h2>Porsche 911</h2>
+
+                <img src="./img/911.png" alt="">
+
+                <div class="desc">
+                    <span>Um esportivo de tirar o folego</span>
+                    <span>Um esportivo de alto desempenho para quem gosta de adrenalina</span>
+                </div>
+
+                <button class="botao information">Saiba Mais</button>
+                <button class="botao models">Todos Modelos 718</button>
+            </div>
+
+            <div class="produto">
+                
+                <h2>Porsche Taycan</h2>
+
+                <img src="./img/taycan.png" alt="">
+
+                <div class="desc">
+                    <span>Um eletrico de tirar o folego</span>
+                    <span>Sedan esportivo de tirar o folego, e o melhor, eletrico</span>
+                </div>
+
+                <button class="botao information">Saiba Mais</button>
+                <button class="botao models">Todos Modelos Cayene</button>
+            </div>
+
+            <div class="produto">
+                
+                <h2>Porsche Cayene</h2>
+
+                <img src="./img/cayenne.png" alt="" width="320" height="94">
+
+                <div class="desc">
+                    <span>Um esportivo de tirar o folego</span>
+                    <span>Dois lugares com dinamica de condução graças a seu motor central.</span>
+                </div>
+
+                <button class="botao information">Saiba Mais</button>
+                <button class="botao models">Todos Modelos 718</button>
+            </div>
+
         </section>
     </main>
 
@@ -129,7 +135,25 @@
     </section>
 
     <footer id="sobre">
-        <span>EM BREVE AQUI SERÁ O FOOTER.</span>
+        
+        <div class="content">
+
+            <div class="redes">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-twitter"></i>
+            </div>
+
+            <div class="direitos">
+                <span>© 2024 IF Cars. Todos os direitos reservados.</span>
+            </div>
+
+            <div class="github">
+                <a href="https://github.com/2daniell/ifpb/tree/master/LM/Project/Step-1" target="_blank"><span>GitHub</span></a>
+            </div>
+            
+        </div>
+
     </footer>
 </body>
 </html>
