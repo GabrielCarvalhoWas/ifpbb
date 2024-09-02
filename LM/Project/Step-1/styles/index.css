@@ -331,4 +331,12 @@ footer .content .github a:hover {
     .yt-video iframe {
         max-width: 100%;
     }
+
+    .arrow {
+        display: none;
+    }
+
+    .pagination {
+        display: none;
+    }
 }
